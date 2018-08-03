@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">青芒自助购</string>
+    <string name="division">................................................</string>
+    <string name="default_hint">请妥善保留交易小票\n谢谢惠顾, 欢迎再次光临\n官方客服联系电话: 95188\n由青芒数据提供技术支持</string>
+    <string name="toast_2">The service has been disconnected!</string>
 </resources>

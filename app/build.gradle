@@ -6,8 +6,8 @@ android {
         applicationId "com.example.administrator.yifu"
         minSdkVersion 19
         targetSdkVersion 27
-        versionCode 2
-        versionName "1.0.1"
+        versionCode 5
+        versionName "1.0.4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -22,6 +22,8 @@ android {
         targetCompatibility 1.8
         sourceCompatibility 1.8
     }
+    useLibrary 'org.apache.http.legacy'
+
 }
 //未指定返回类型
 def releaseTime() {
@@ -69,4 +71,7 @@ dependencies {
     annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
     implementation project(path: ':jsBridge')
     implementation files('libs/SmileService1.9.1.jar')
+    implementation files('libs/core-3.1.1-SNAPSHOT.jar')
+    implementation files('libs/commons-logging-1.1.1.jar')
+    implementation files('libs/fastjson-1.1.45.jar')
 }

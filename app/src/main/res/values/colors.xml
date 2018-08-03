@@ -1,7 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+十六进制透明度参照表:
+00%=FF（不透明）    5%=F2    10%=E5    15%=D8    20%=CC    25%=BF    30%=B3    35%=A5    40%=99    45%=8c    50%=7F
+55%=72    60%=66    65%=59    70%=4c    75%=3F    80%=33    85%=21    90%=19    95%=0c    100%=00（全透明）
+-->
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="FC5">#f2f2f2</color>
+	<color name="C0324T50">#7fffffff</color>
+	<color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#FF4081</color>
+	<color name="C0316">#4a156e</color>
+	<color name="C0316P">#2e0054</color>
+	<color name="C0317">#7e46a2</color>
+	<color name="C0412">#6c19f6</color>
+	<color name="C0321">#1a1a1a</color>
+
+	<color name="C0331">#bfbfbf</color>
+	<color name="C0332">#e6e6e6</color>
+	<color name="C0322">#666666</color>
+	<color name="C0315">#44cf89</color>
+	<color name="C0323">#999999</color>
+	<color name="C0323p">#666666</color>
+	<color name="main_background_color">#f2f2f2</color>
+	<color name="black_overlay">#66000000</color>
+
+	<color name="translation">#00000000</color>
+
+	<color name="white">#FFFFFF</color>
+	<color name="whiteT20">#33FFFFFF</color>
+	<color name="whiteT50">#7fFFFFFF</color>
+	<color name="whiteT95">#0cFFFFFF</color>
+	<color name="whiteT90">#19FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="blackT50">#7f000000</color>
+	<color name="blackT20">#cc000000</color>
+	<color name="C0311">#35aae1</color>
+	<color name="C0332T00">#FFe6e6e6</color>
+
+	<color name="comment_title">#FDFDFF</color>
+	<color name="transparent">#00000000</color>
+	<color name="translucent">#7f000000</color>
+
+	<color name="WhiteP">#F0F0F0</color>
+	<color name="C0313">#FF3657</color>
+	<!--
+十六进制透明度参照表:
+00%=FF（不透明）    5%=F2    10%=E5    15%=D8    20%=CC    25%=BF    30%=B3    35%=A5    40%=99    45%=8c    50%=7F
+55%=72    60%=66    65%=59    70%=4c    75%=3F    80%=33    85%=21    90%=19    95%=0c    100%=00（全透明）
+-->
+
+	<!-- main linear gradient color -->
+	<color name="lg_top">#5D24BF</color>
+	<color name="lg_mid">#7B1DD6</color>
+	<color name="lg_bottom">#2A29A9</color>
+
+	<!--旧版颜色，不用于标注 start-->
+	<color name="c1">#db3c38</color>
+	<color name="c2">#333333</color>
+	<color name="c3">#666666</color>
+	<color name="c4">#999999</color>
+	<color name="c5">#e3e3e3</color>
+	<color name="c6">#e5e5e5</color>
+	<color name="c7">#f5f5f5</color>
+	<color name="c8">#f9f9f9</color>
+	<color name="c8T20">#33f9f9f9</color>
+	<color name="c9">#59ce99</color>
+	<color name="c10">#4cb4fb</color>
+	<color name="c11">#96cc21</color>
+	<color name="c12">#fd9534</color>
+	<color name="c13">#ffb933</color>
+	<color name="c14">#e5e5e5</color>
+	<color name="c15">#c3c3c3</color>
+	<color name="c16">#f0f0f0</color>
+	<color name="cp1">#c93734</color>
+	<color name="cp9">#51bd8c</color>
+	<color name="cp10">#46a7e8</color>
+	<color name="cp11">#8bbd1e</color>
+	<color name="cp12">#eb8b31</color>
+	<color name="cp13">#edab2f</color>
+	<color name="MC1">#6c19f6</color>
+	<color name="MC2">#fff100</color>
+	<color name="MC3">#4a156e</color>
+	<color name="MC4">#7e46a2</color>
+	<color name="MC5">#ff3657</color>
+	<color name="MC6">#ff3657</color><!--美工升级版本要求 两个一样颜色-->
+	<color name="MC7">#59c5ff</color>
+	<color name="MC8">#44cf89</color>
+	<color name="MC0312">#f2a437</color>
+	<color name="MC0318">#d193f7</color>
+	<color name="C0321T7F">#7f1a1a1a</color>
+
+
+
+	<!--新颜色，美术并没有给出对应编号-->
+
+	<color name="v1">#2E1A84</color>
+	<color name="v2">#e2e2e2</color>
+	<color name="C2E1A84">#2E1A84</color>
+	<color name="transparent_background">#33000000</color>
+
+	<color name="v1T50">#7F2E1A84</color>
+	<color name="v1T35">#a52E1A84</color>
+	<color name="v3">#ff1a1a1a</color>
+
 </resources>

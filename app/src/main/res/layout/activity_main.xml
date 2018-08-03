@@ -5,9 +5,18 @@
     android:layout_height="match_parent"
   >
 
-<com.example.administrator.yifu.views.ProBridgeWebView
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/image"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        />
+
+<com.qingmang.market.views.ProBridgeWebView
     android:layout_width="match_parent"
     android:id="@+id/web_ranking"
-    android:layout_height="match_parent"></com.example.administrator.yifu.views.ProBridgeWebView>
+    android:layout_height="match_parent"></com.qingmang.market.views.ProBridgeWebView>
 
 </RelativeLayout>
