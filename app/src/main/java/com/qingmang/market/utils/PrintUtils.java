@@ -123,13 +123,14 @@ public class PrintUtils
                 date.setText(map.get("paytime")+"");
                 orderForm.setText(map.get("id")+"");
                 hintTime.setText(map.get("paytime")+"");
-                goodsCount.setText(map.get("totalNum")+"");
-                prices.setText(map.get("total")+"");
 
+                goodsCount.setText(map.get("totalNum")+"");
+                prices.setText(map.get("receipt")+"");
                 prices2.setText(map.get("payment")+"");
                 totalPrices.setText(map.get("total")+"");
                 zfbSale.setText(map.get("alipayDiscountValue")+"");
                 onSale.setText(map.get("discountValue")+"");
+
                 imageView1.setImageBitmap(generateBitmap(map.get("id")+"",8,1200,400));
 
                 List<GoogsBean> dinerLst = AppController.getGsonInstance().fromJson(map.get("goods")+"", new TypeToken<List<GoogsBean>>(){}.getType());

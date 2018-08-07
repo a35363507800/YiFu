@@ -84,10 +84,14 @@ public class MainActivity extends BaseActivity
         {
             mWebView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
         }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
+        {
+            mWebView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+        }
         mWebView.getSettings().setLoadWithOverviewMode(true);
         mWebView.getSettings().setUseWideViewPort(true);
         mWebView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
-
+        mWebView.getSettings().setBlockNetworkImage(false);//
 
       //  mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setDomStorageEnabled(true);

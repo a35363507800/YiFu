@@ -179,7 +179,6 @@
             android:divider="@color/translation"
             android:dividerHeight="5dp"
             android:scrollbars="none"
-
             ></ListView>
 
         <TextView
@@ -213,34 +212,7 @@
 
                 >
 
-                <LinearLayout
-                    android:layout_width="match_parent"
 
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="件数:"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/f4"
-
-                        />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="right"
-                        tools:text="10"
-                        android:textColor="@color/black"
-
-                        android:id="@+id/goods_count"
-                        android:textSize="@dimen/f4"
-
-
-                        />
-
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -250,7 +222,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="总计:"
+                        android:text="总价:"
                         android:textSize="@dimen/f4"
                         android:textColor="@color/black"
                         />
@@ -276,7 +248,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="应收:"
+                        android:text="实收:"
                         android:textSize="@dimen/f4"
                         android:textColor="@color/black"
                         />
@@ -302,7 +274,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="实收:"
+                        android:text="实付:"
                         android:textSize="@dimen/f4"
                         android:textColor="@color/black"
                         />
@@ -332,13 +304,42 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp">
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="优惠:"
+                        android:text="总数:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/f4"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        tools:text="10"
+                        android:textColor="@color/black"
+
+                        android:id="@+id/goods_count"
+                        android:textSize="@dimen/f4"
+
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="商家优惠:"
                         android:textSize="@dimen/f4"
                         android:textColor="@color/black"
                         />
@@ -359,12 +360,12 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="26.5dp">
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="支付宝优惠:"
+                        android:text="用户优惠:"
                         android:textSize="@dimen/f4"
                         android:textColor="@color/black"
                         />
